@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL0AYSvKwn"
-#define BLYNK_DEVICE_NAME "Temperature dan Humidity"
-#define BLYNK_AUTH_TOKEN "D_ZfqpiaQal1Qk5kfnHl-xEyyhLDwPVE"
+#define BLYNK_TEMPLATE_ID "XXXXXXXXX"
+#define BLYNK_DEVICE_NAME "XXXXXXXXXXXXXXXXXXX"
+#define BLYNK_AUTH_TOKEN "XXXXXXXXXXXXXXXXXXXXXXXXXX"
 #define BLYNK_PRINT Serial
 
 #include <WiFi.h>
@@ -23,8 +23,8 @@ float hum;  //Stores humidity value
 float temp; //Stores temperature value
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "KMTek"; //nama wifi
-char pass[] = "KMTek123"; //password wifi
+char ssid[] = "XXXXXXXXX"; //nama wifi
+char pass[] = "XXXXXXXXX"; //password wifi
 
 BlynkTimer timer;
 
